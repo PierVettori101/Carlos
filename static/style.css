@@ -1,0 +1,517 @@
+body {
+    width: 100%;
+    padding-bottom: 20px;
+   
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.Bar{
+    height:50px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly; 
+    color:white;
+    align-items:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   
+}
+.HomeBut{
+  font-size:larger;
+  cursor: pointer;
+}
+.HomeBut:active {
+    transform: scale(1.2);
+}
+
+.Greeting{
+    font-size:larger;
+    cursor: pointer;
+}
+.Greeting:active {
+    transform: scale(1.2);
+}
+
+.TextHeight{
+    /* font-size: 26px; */
+    text-justify: center;
+    height:21px;
+}
+
+.Main {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.vertical{
+    display:block;
+}
+
+.Number{
+    width:90%;
+}
+
+.PopUp{
+    position: absolute;
+    top:20%;
+    left:20%;
+    width:60%;
+    height:auto;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.Center{
+    display:flex;
+    justify-content:center;
+}
+.CenterSpace {
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.CenterEven {
+    display: flex;
+    justify-content: space-evenly;
+}
+.PadderTop{
+    padding-top:10px;
+}
+.Darker{
+    background-color: rgba(117, 117, 117, 0.8)
+}
+
+.PadderLeft {
+    padding-left: 10px;
+}
+.WideFit{
+    padding-left:10%;
+    width: 80%;
+    padding-right:10%;
+}
+
+.OneThird{
+    width:33%;
+   
+    text-align: center
+}
+.FiftyPer{
+    width:33%;
+   
+    font-size:larger;
+    font-weight:bold;
+    text-align:center
+}
+
+.PopBlock{
+    width:50%;
+    height:10vh;
+    font-size: large;
+}
+
+.StatBlock{
+    height:25px;
+    text-align: center;
+  
+}
+.StatBlockBold{
+    height:25px;
+    font-size:large;
+    font-weight:bold;
+    text-align:center
+}
+
+.Normal{
+    font-size:medium;
+    font-weight:normal;
+    text-align:center
+}
+
+.Bold{
+    font-size:large;
+    font-weight:bold;
+    text-align:center
+}
+
+.Heading{
+    font-size:x-large;
+    font-weight:bold;
+    text-align:center
+}
+
+.statsHeading {
+    width: 40%;
+    font-size: large;
+    font-weight: bold;
+    text-align: center
+}
+.statsGuestHeading {
+    text-align:left;
+    width: 40%;
+    font-size: large;
+    font-weight: bold;
+   
+}
+
+.statsFeeHeading {
+    width: 20%;
+    font-size: large;
+    font-weight: bold;
+    text-align: right
+}
+
+.stat {
+    font-size: medium;
+    font-weight: normal;
+}
+.Extras{
+    display: flex;
+    justify-content: start;
+}
+
+.Pressed{
+    border-radius: 5px;
+    background-color: rgba(117, 117, 117, 0.8)
+    
+}
+.UnPressed{
+    border-radius: 5px;
+    background-color: rgba(117, 117, 117, 0.158)
+}
+
+.formInfo{
+    height: 21px;
+}
+.WideBut {
+    width: 90%;
+    height: 30vh;
+    font-size: x-large;
+    border-radius: 5%;
+}
+
+    .WideBut:active {
+        transform: scale(1.05);
+        background-color: rgb(111, 111, 111, 0.30)
+    }
+
+.BigBut {
+    cursor: pointer;
+    width: 40%;
+    height: 20vh;
+    font-size: large;
+    border-radius: 5%;
+}
+    .BigBut:active {
+        transform: scale(1.05);
+        background-color: rgb(111, 111, 111, 0.30)
+    }
+
+
+
+.BigText{
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 5%;
+   
+}
+.SmallTextBox{
+    width:30%;
+  
+}
+
+.LineBox{
+    width: 10%;
+    /* height: 20vh; */
+    font-size: x-large;
+    background: url('Images/Arrows.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    border: none;
+    background-position: center;
+}
+.TourBox{
+    cursor: pointer;
+    width: 30%;
+    height:auto;
+    text-align:center;
+    font-size: x-large;
+    border-radius: 5%;
+}
+
+.CheckIn {
+    cursor: pointer;
+    width: 100%;
+    height: 20vh;
+    font-size: x-large;
+    border-radius: 10%;
+    background: url('Images/CheckIn.png');
+    background-repeat: no-repeat;
+    background-origin:content-box;
+    background-size: contain;
+    border: none;
+    background-position: center;
+    background-color: rgba(46, 255, 39, 0.514)
+}
+    .CheckIn:active {
+        /*padding-bottom: 2px;
+        padding-right: 2px;*/
+        transform: scale(1.05);
+        background-color: rgb(47, 255, 40)
+    }
+
+.MainBut {
+
+    cursor: pointer;
+    width: 40%;
+    height:25vh;
+    font-size: x-large;
+    border-radius: 5%;
+}
+    .MainBut:active {
+        transform: scale(1.05);
+        /* background-color: rgb(111, 111, 111, 0.30) */
+    }
+
+
+.Builder {
+    cursor: pointer;
+    width: 100%;
+    height: 20vh;
+    font-size: x-large;
+    border-radius: 10%;
+    background: url('Images/Builder.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    border: none;
+    background-position:center;
+    background-color: rgba(69, 144, 255, 0.507)
+}
+
+    .Builder:active {
+        /*padding-bottom: 2px;
+        padding-right: 2px;*/
+        transform: scale(1.05);
+        background-color: rgba(69, 144, 255, 0.664)
+    }
+
+.Daily {
+    cursor: pointer;
+    width: 100%;
+    height: 20vh;
+    font-size: x-large;
+    border-radius: 10%;
+    background: url('Images/Daily.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    border: none;
+    background-position:center;
+    background-color: rgba(9, 255, 0, 0.514)
+}
+
+    .Daily:active {
+        /*padding-bottom: 2px;
+        padding-right: 2px;*/
+        transform: scale(1.05);
+        background-color:  rgba(9, 255, 0, 0.938)
+    }
+
+    .Tickets {
+        cursor: pointer;
+        width: 100%;
+        height: 20vh;
+        font-size: x-large;
+        border-radius: 10%;
+        background: url('Images/ticket.png');
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: contain;
+        border: none;
+        background-position:center;
+        background-color: rgba(151, 0, 252, 0.541)
+    }
+    
+        .Tickets:active {
+            /*padding-bottom: 2px;
+            padding-right: 2px;*/
+            transform: scale(1.05);
+            background-color:  rgba(151, 0, 252, 0.774)
+        }
+
+.StatsIcon {
+    cursor: pointer;
+    width: 100%;
+    height: 20vh;
+    font-size: x-large;
+    border-radius: 10%;
+    background: url('Images/statistic.png');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    border: none;
+    background-position: center;
+    background-color: rgba(255, 60, 60, 0.555)
+}
+
+    .StatsIcon:active {
+        /* padding-bottom: 2px;
+        padding-right: 2px;*/
+        transform: scale(1.05);
+        background-color: rgba(255, 60, 60, 0.74)
+    }
+    .Error {
+        display:flex;
+        justify-content:center;
+        color:red;
+        font-size: medium;
+        animation-name: ErrorAni;
+        animation-duration: 0.7s;
+        animation-iteration-count: 1; 
+    }
+    .ErrorDone {
+        display:flex;
+        justify-content:center;
+        color:red;
+        font-size: medium;
+
+    }
+    .Success {
+        display:flex;
+        justify-content:center;
+        color:rgb(43, 255, 0);
+        font-size: medium;
+        animation-name: ErrorAni;
+        animation-duration: 0.7s;
+        animation-iteration-count: 1; 
+    }
+    .SuccessDone {
+        display:flex;
+        justify-content:center;
+        color:rgb(43, 255, 0);
+        font-size: medium;
+
+    }
+    
+    @keyframes ErrorAni {
+        from {
+           transform: scale(2);
+        }
+    
+        to {
+            transform: scale(1);
+        }
+    }
+
+
+.sliderLeft {
+    filter: blur(4px);
+    position: absolute;
+    animation-name: slideLeft;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideLeft {
+    from {
+        width: 100%;
+        left: 5%;
+        background-color: white;
+    }
+
+    to {
+        width: 100%;
+        left: -2000px;
+        background-color: white;
+    }
+}
+
+.sliderRight {
+    filter: blur(4px);
+    position: absolute;
+    animation-name: slideRight;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes slideRight {
+    from {
+        width: 100%;
+        right: 5%;
+        background-color: white;
+    }
+
+    to {
+        width: 100%;
+        right: -2000px;
+        background-color: white;
+    }
+}
+
+.FaderIn {
+    width:100%;
+    animation-name: FadeIn;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity:0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    
+
+    .WideBut {
+        width: 90%;
+        height: 10vh;
+        font-size: large;
+        border-radius: 5%;
+       
+    }
+    
+        .WideBut:active {
+            transform: scale(1.1);
+            background-color: rgb(111, 111, 111, 0.30)
+        }
+    
+    .BigBut {
+        width: 40%;
+        height: 10vh;
+        font-size: large;
+        border-radius: 5%;
+    }
+        .BigBut:active {
+           transform:scale(1.1);
+            background-color: rgb(111, 111, 111, 0.30)
+        }
+}

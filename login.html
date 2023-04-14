@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Login</title>
+        <!-- the form awesome library is used to add icons to our form -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <!-- include the stylesheet file -->
+		<link href="/LoginStyle.css" rel="stylesheet" type="text/css">
+       
+	</head>
+	<body>
+		<form onsubmit="false" action="/" method="post">
+			<h2>Login</h2>
+			<div class="input-field">
+				<input type="text" name="username" id="username" placeholder="Enter Username">
+			</div>
+			<div class="input-field">
+				<input type="password" name="password" id="password" placeholder="Enter Password">
+			</div>
+			<input type="submit" value="LogIn">
+		</form>
+	</body>
+</html>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script >
+function login(){
+
+var email = document.getElementById("Emailtxt").value;
+var password = document.getElementById("Passwordtxt").value;
+console.log(email);
+$.ajax({
+	type: "POST",
+	url: "/Login",
+	data: { 
+		'email': email,
+		'password': password,
+	},
+	dataType: "json",
+	success: function (data) {
+		if (data == "Error") {
+			console.log("Error in getClients return data");
+		}
+		else {
+			console.log(data.data);
+			
+		}
+
+	},
+	error: function (data) {
+		console.log("Error in getClients Ajax error");
+		console.log(data);
+	}
+});
+
+
+
+
+}
+
+
+</script> -->
